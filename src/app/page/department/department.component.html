@@ -1,0 +1,17 @@
+<h2>Department List</h2>
+<table class="min-w-full border-collapse border border-gray-200">
+  <thead>
+    <tr>
+      <th class="border border-gray-300 p-2">ID</th>
+      <th class="border border-gray-300 p-2">Department Name</th>
+      <th class="border border-gray-300 p-2">Manager</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let department of departments">
+      <td class="border border-gray-300 p-2">{{ department.id }}</td>
+      <td class="border border-gray-300 p-2">{{ department.name }}</td>
+      <td class="border border-gray-300 p-2">{{ department.manager }}</td>
+    </tr>
+  </tbody>
+</table>

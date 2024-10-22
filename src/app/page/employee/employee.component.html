@@ -1,0 +1,19 @@
+<h2>Employee List</h2>
+<table class="min-w-full border-collapse border border-gray-200">
+  <thead>
+    <tr>
+      <th class="border border-gray-300 p-2">ID</th>
+      <th class="border border-gray-300 p-2">Name</th>
+      <th class="border border-gray-300 p-2">Position</th>
+      <th class="border border-gray-300 p-2">Department</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let employee of employees">
+      <td class="border border-gray-300 p-2">{{ employee.id }}</td>
+      <td class="border border-gray-300 p-2">{{ employee.name }}</td>
+      <td class="border border-gray-300 p-2">{{ employee.position }}</td>
+      <td class="border border-gray-300 p-2">{{ employee.department }}</td>
+    </tr>
+  </tbody>
+</table>

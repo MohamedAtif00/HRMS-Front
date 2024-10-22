@@ -1,0 +1,36 @@
+/* Styling for the sidebar */
+.sidebar {
+    height: 100vh;
+    background-color: #f8f9fa;
+    padding-top: 1rem;
+}
+
+.sidebar-menu .nav-link {
+    padding: 10px 15px;
+    color: #333;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.sidebar-menu .nav-link:hover {
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+}
+
+.sidebar-menu .nav-link.active {
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+}
+
+.sidebar-menu .nav-link i {
+    margin-right: 10px;
+}
+
+/* Additional styling for content area */
+main {
+    padding: 20px;
+    background-color: #f8f9fa;
+    height: 100vh;
+}
